@@ -1,7 +1,10 @@
+
 import se.iths.service.CurrencyConverter;
 
-module consumer {
+module se.iths.consumer{
+
     requires service;
     requires provider;
+
     uses CurrencyConverter;
 }
